@@ -1,0 +1,1 @@
+A task in which data is gotten from an API endpoint (JSON Placeholder posts) and written into a file.
