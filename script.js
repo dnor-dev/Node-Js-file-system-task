@@ -13,7 +13,7 @@ https
     //  Whole response has been received, writing it into the posts.json file
       resp.on("end", () => {
           const posts = data;
-          fs.writeFile("./posts.json", posts, () => {
+          fs.writeFile("./result/posts.json", posts, () => {
             console.log('done with the posts')
         });
     });
